@@ -15,7 +15,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.Backspace
+import androidx.compose.material.icons.automirrored.rounded.Backspace
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -131,7 +131,7 @@ private fun PinPad(
                             modifier = Modifier.size(68.dp)
                         ) {
                             Icon(
-                                Icons.Rounded.Backspace,
+                                Icons.AutoMirrored.Rounded.Backspace,
                                 contentDescription = "Delete",
                                 tint = MaterialTheme.colorScheme.onSurface,
                                 modifier = Modifier.size(26.dp)

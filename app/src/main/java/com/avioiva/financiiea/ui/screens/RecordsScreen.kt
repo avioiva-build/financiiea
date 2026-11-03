@@ -4,6 +4,7 @@ import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -281,7 +282,7 @@ private fun HistoryTab(onEditTransaction: (Long) -> Unit) {
             onDismissRequest = { pickingStart = false },
             confirmButton = {
                 TextButton(onClick = {
-                    st.selection?.let {
+                    st.selectedDateMillis?.let {
                         customStart = Formats.startOfDay(
                             java.time.Instant.ofEpochMilli(it).atZone(Formats.zone()).toLocalDate()
                         )
@@ -300,7 +301,7 @@ private fun HistoryTab(onEditTransaction: (Long) -> Unit) {
             onDismissRequest = { pickingEnd = false },
             confirmButton = {
                 TextButton(onClick = {
-                    st.selection?.let {
+                    st.selectedDateMillis?.let {
                         customEnd = Formats.endOfDay(
                             java.time.Instant.ofEpochMilli(it).atZone(Formats.zone()).toLocalDate()
                         )

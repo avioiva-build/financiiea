@@ -57,6 +57,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -472,7 +473,7 @@ fun AddEditScreen(txId: Long, onDone: () -> Unit) {
             onDismissRequest = { showDatePicker = false },
             confirmButton = {
                 TextButton(onClick = {
-                    state.selection?.let { sel ->
+                    state.selectedDateMillis?.let { sel ->
                         val old = Formats.toLocalDateTime(timestamp)
                         val newDate = Formats.millisFrom(
                             java.time.Instant.ofEpochMilli(sel).atZone(Formats.zone()).toLocalDate(),
@@ -549,4 +550,4 @@ fun AddEditScreen(txId: Long, onDone: () -> Unit) {
 
 /** Small helper so BitmapFactory results can be shown with Compose Image(). */
 private fun android.graphics.Bitmap.asImageBitmapCompat(): androidx.compose.ui.graphics.ImageBitmap =
-    androidx.compose.ui.graphics.asImageBitmap(this)
+    this.asImageBitmap()

@@ -54,7 +54,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.hsl
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -460,13 +459,34 @@ fun SettingsScreen() {
 
 private fun Color.toArgbLong(): Long = this.toArgb().toLong() and 0xFFFFFFFFL
 
+/** HSL → Compose Color (self-contained helper, works on every Compose version). */
+private fun hslColor(hue: Float, saturation: Float, lightness: Float): Color {
+    val h = (((hue % 360f) + 360f) % 360f) / 360f
+    val s = saturation.coerceIn(0f, 1f)
+    val l = lightness.coerceIn(0f, 1f)
+    val q = if (l < 0.5f) l * (1f + s) else l + s - l * s
+    val p = 2f * l - q
+    fun channel(t: Float): Float {
+        var tt = t
+        if (tt < 0f) tt += 1f
+        if (tt > 1f) tt -= 1f
+        return when {
+            tt < 1f / 6f -> p + (q - p) * 6f * tt
+            tt < 1f / 2f -> q
+            tt < 2f / 3f -> p + (q - p) * (2f / 3f - tt) * 6f
+            else -> p
+        }
+    }
+    return Color(channel(h + 1f / 3f), channel(h), channel(h - 1f / 3f))
+}
+
 /** Simple HSL colour picker with a live preview. */
 @Composable
 private fun CustomColorDialog(onDismiss: () -> Unit, onApply: (Long) -> Unit) {
     var hue by remember { mutableStateOf(174f) }
     var sat by remember { mutableStateOf(0.72f) }
     var light by remember { mutableStateOf(0.45f) }
-    val preview = Color.hsl(hue, sat, light)
+    val preview = hslColor(hue, sat, light)
 
     AlertDialog(
         onDismissRequest = onDismiss,

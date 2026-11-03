@@ -28,13 +28,15 @@ class FinanciieaApp : Application() {
     override fun onCreate() {
         super.onCreate()
         AppContainer.init(this)
-        val channel = NotificationChannel(
-            REMINDER_CHANNEL_ID,
-            getString(R.string.notif_channel),
-            NotificationManager.IMPORTANCE_DEFAULT
-        )
-        val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        manager.createNotificationChannel(channel)
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                REMINDER_CHANNEL_ID,
+                getString(R.string.notif_channel),
+                NotificationManager.IMPORTANCE_DEFAULT
+            )
+            val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            manager.createNotificationChannel(channel)
+        }
     }
 
     companion object {

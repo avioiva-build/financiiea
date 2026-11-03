@@ -109,9 +109,6 @@ object BackupManager {
 
         val doc = PdfDocument()
         var pageNo = 0
-        var page: PdfDocument.Page
-        var canvas: Canvas
-        var y: Float
 
         val titlePaint = Paint().apply {
             color = Color.WHITE; textSize = 20f
@@ -124,23 +121,19 @@ object BackupManager {
         val inPaint = Paint(boldCell).apply { color = Color.rgb(46, 125, 50) }
         val outPaint = Paint(boldCell).apply { color = Color.rgb(198, 40, 40) }
 
-        fun newPage() {
-            pageNo++
-            page = doc.startPage(PdfDocument.PageInfo.Builder(pageW, pageH, pageNo).create())
-            canvas = page.canvas
-            canvas.drawRect(0f, 0f, pageW.toFloat(), 64f, Paint().apply { color = navy })
-            canvas.drawText("FINANCIIEA — Your hassle-free money diary", margin, 30f, titlePaint)
-            canvas.drawText(
+        fun drawPageHeader(c: Canvas) {
+            c.drawRect(0f, 0f, pageW.toFloat(), 64f, Paint().apply { color = navy })
+            c.drawText("FINANCIIEA — Your hassle-free money diary", margin, 30f, titlePaint)
+            c.drawText(
                 "Report period: $periodLabel  •  Generated ${rowDate.format(Date())}",
                 margin, 50f, Paint().apply { color = Color.rgb(190, 205, 225); textSize = 11f })
-            y = 88f
         }
 
-        fun drawTableHeader() {
-            canvas.drawRect(margin, y, pageW - margin, y + 18f, Paint().apply { color = teal })
+        fun drawTableHeader(c: Canvas, yStart: Float): Float {
+            c.drawRect(margin, yStart, pageW - margin, yStart + 18f, Paint().apply { color = teal })
             var x = margin + 6f
             for (h in listOf("Date", "Type", "Category", "Account", "From", "Amount")) {
-                canvas.drawText(h, x, y + 13f, headPaint)
+                c.drawText(h, x, yStart + 13f, headPaint)
                 x += when (h) {
                     "Date" -> 110f
                     "Type" -> 62f
@@ -150,18 +143,26 @@ object BackupManager {
                     else -> 0f
                 }
             }
-            y += 26f
+            return yStart + 26f
         }
 
-        newPage()
-        drawTableHeader()
+        fun startNewPage(): PdfDocument.Page {
+            pageNo++
+            val p = doc.startPage(PdfDocument.PageInfo.Builder(pageW, pageH, pageNo).create())
+            drawPageHeader(p.canvas)
+            return p
+        }
+
+        var page = startNewPage()
+        var y = drawTableHeader(page.canvas, 88f)
 
         for (tx in transactions) {
             if (y > pageH - 60f) {
                 doc.finishPage(page)
-                newPage()
-                drawTableHeader()
+                page = startNewPage()
+                y = drawTableHeader(page.canvas, 88f)
             }
+            val canvas = page.canvas
             canvas.drawText(rowDate.format(Date(tx.timestamp)), margin + 6f, y, cellPaint)
             canvas.drawText(
                 tx.type.lowercase(Locale.US).replaceFirstChar { it.uppercase(Locale.US) },
@@ -182,8 +183,12 @@ object BackupManager {
         val totalIn = transactions.filter { it.txType != TxType.EXPENSE }.sumOf { it.amount }
         val totalOut = transactions.filter { it.txType == TxType.EXPENSE }.sumOf { it.amount }
         y += 12f
-        if (y > pageH - 60f) { doc.finishPage(page); newPage() }
-        canvas.drawText(
+        if (y > pageH - 60f) {
+            doc.finishPage(page)
+            page = startNewPage()
+            y = 88f
+        }
+        page.canvas.drawText(
             "Total In: ${"%,.2f".format(Locale.US, totalIn)}    " +
                 "Total Out: ${"%,.2f".format(Locale.US, totalOut)}    " +
                 "Net: ${"%,.2f".format(Locale.US, totalIn - totalOut)}",

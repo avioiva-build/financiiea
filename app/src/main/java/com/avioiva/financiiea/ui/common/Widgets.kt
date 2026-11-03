@@ -16,11 +16,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.ReceiptLong
 import androidx.compose.material.icons.rounded.Category
 import androidx.compose.material.icons.rounded.DirectionsBus
 import androidx.compose.material.icons.rounded.LocalHospital
 import androidx.compose.material.icons.rounded.Movie
-import androidx.compose.material.icons.rounded.ReceiptLong
 import androidx.compose.material.icons.rounded.Restaurant
 import androidx.compose.material.icons.rounded.School
 import androidx.compose.material.icons.rounded.ShoppingCart
@@ -57,7 +57,7 @@ object Categories {
         Category("food", Icons.Rounded.Restaurant, R.string.cat_food, Color(0xFFF97316)),
         Category("transport", Icons.Rounded.DirectionsBus, R.string.cat_transport, Color(0xFF3B82F6)),
         Category("shopping", Icons.Rounded.ShoppingCart, R.string.cat_shopping, Color(0xFFEC4899)),
-        Category("bills", Icons.Rounded.ReceiptLong, R.string.cat_bills, Color(0xFFD4A017)),
+        Category("bills", Icons.AutoMirrored.Rounded.ReceiptLong, R.string.cat_bills, Color(0xFFD4A017)),
         Category("health", Icons.Rounded.LocalHospital, R.string.cat_health, Color(0xFFEF4444)),
         Category("education", Icons.Rounded.School, R.string.cat_education, Color(0xFF8B5CF6)),
         Category("entertainment", Icons.Rounded.Movie, R.string.cat_entertainment, Color(0xFF06B6D4)),
