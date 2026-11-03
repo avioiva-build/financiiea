@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Financiiea" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/navy_background</item>
+        <item name="android:statusBarColor">@color/navy_background</item>
+        <item name="android:navigationBarColor">@color/navy_background</item>
+    </style>
+
+    <style name="Theme.Financiiea.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/navy_deep</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Financiiea</item>
+    </style>
+</resources>

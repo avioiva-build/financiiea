@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">Votre journal financier sans tracas</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">Ajouter une transaction</string>
+    <string name="menu_history_reports">Historique des transactions et rapports</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_about">À propos</string>
+    <string name="menu_header_slogan">L\'argent • en toute simplicité</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">Ajouter une transaction</string>
+    <string name="title_edit_transaction">Modifier la transaction</string>
+    <string name="title_history">Historique des transactions</string>
+    <string name="title_reports">Rapports</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_about">À propos</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="save">Enregistrer</string>
+    <string name="apply">Appliquer</string>
+    <string name="back">Retour</string>
+    <string name="open_menu">Ouvrir le menu</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">Solde actuel</string>
+    <string name="cash">Espèces</string>
+    <string name="bank">Banque</string>
+    <string name="todays_income">Revenus du jour</string>
+    <string name="todays_expenses">Dépenses du jour</string>
+    <string name="recent_transactions">Transactions récentes</string>
+    <string name="empty_transactions">Aucune transaction pour le moment.\nAppuyez sur + pour ajouter votre première entrée.</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">Dépense</string>
+    <string name="type_payment">Paiement</string>
+    <string name="type_credit">Emprunt</string>
+    <string name="credit_from">De qui</string>
+    <string name="credit_from_hint">Qui vous a donné cet argent ?</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">Montant</string>
+    <string name="currency">Devise</string>
+    <string name="account">Compte</string>
+    <string name="category">Catégorie</string>
+    <string name="date">Date</string>
+    <string name="time">Heure</string>
+    <string name="notes">Notes</string>
+    <string name="notes_hint">Écrivez une note sur cette transaction…</string>
+    <string name="receipt">Reçu</string>
+    <string name="camera">Appareil photo</string>
+    <string name="gallery">Galerie</string>
+    <string name="error_amount">Veuillez saisir un montant valide</string>
+    <string name="saved">Transaction enregistrée</string>
+    <string name="updated">Transaction mise à jour</string>
+    <string name="confirm_delete_title">Supprimer cette transaction ?</string>
+    <string name="confirm_delete_msg">Cette entrée sera définitivement supprimée.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Alimentation et restaurants</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_shopping">Achats</string>
+    <string name="cat_bills">Factures et services</string>
+    <string name="cat_health">Santé</string>
+    <string name="cat_education">Éducation</string>
+    <string name="cat_entertainment">Loisirs</string>
+    <string name="cat_other">Autre</string>
+
+    <!-- History -->
+    <string name="filter_day">Jour</string>
+    <string name="filter_week">Semaine</string>
+    <string name="filter_month">Mois</string>
+    <string name="filter_custom">Personnalisé</string>
+    <string name="in_total">Entrées</string>
+    <string name="out_total">Sorties</string>
+    <string name="edit_or_delete">Modifier ou supprimer cette transaction ?</string>
+    <string name="empty_range">Aucune transaction sur cette période.</string>
+    <string name="custom_from">Du</string>
+    <string name="custom_to">Au</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">Dépenses par catégorie</string>
+    <string name="monthly_overview">Vue mensuelle (6 derniers mois)</string>
+    <string name="income">Revenus</string>
+    <string name="expense">Dépenses</string>
+    <string name="export_pdf">Exporter en PDF</string>
+    <string name="export_csv">Exporter en CSV / Excel</string>
+    <string name="report_empty">Aucune donnée de dépenses pour cette période.</string>
+    <string name="exported">Export prêt — choisissez où le partager ou l\'enregistrer</string>
+    <string name="this_week">Cette semaine</string>
+    <string name="this_month">Ce mois-ci</string>
+    <string name="this_year">Cette année</string>
+    <string name="all_time">Tout</string>
+
+    <!-- Settings -->
+    <string name="language">Langue</string>
+    <string name="app_lock">Verrouillage de l\'appli (PIN)</string>
+    <string name="app_lock_desc">Demander le PIN à chaque ouverture de l\'appli</string>
+    <string name="set_pin">Définir le PIN</string>
+    <string name="change_pin">Changer le PIN</string>
+    <string name="enter_pin">Saisir le PIN (4 à 6 chiffres)</string>
+    <string name="confirm_pin">Confirmer le PIN</string>
+    <string name="pin_mismatch">Les PIN ne correspondent pas. Réessayez.</string>
+    <string name="pin_wrong">PIN incorrect. Réessayez.</string>
+    <string name="pin_min">Le PIN doit contenir au moins 4 chiffres</string>
+    <string name="daily_reminder">Rappel quotidien</string>
+    <string name="reminder_time">Heure du rappel</string>
+    <string name="backup_restore">Sauvegarde et restauration</string>
+    <string name="connect_drive">Connecter Google Drive</string>
+    <string name="drive_connected">Dossier Google Drive connecté ✓</string>
+    <string name="drive_not_connected">Non connecté</string>
+    <string name="backup_now">Sauvegarder maintenant</string>
+    <string name="restore_backup">Restaurer une sauvegarde</string>
+    <string name="save_backup_phone">Enregistrer la sauvegarde sur le téléphone</string>
+    <string name="backup_done">Sauvegarde enregistrée avec succès</string>
+    <string name="restore_done">Sauvegarde restaurée avec succès</string>
+    <string name="restore_failed">Échec de la restauration — fichier de sauvegarde FINANCIIEA non valide</string>
+    <string name="backup_pick_folder">Dans le sélecteur, choisissez (ou créez) un dossier dans votre Google Drive — les sauvegardes y seront enregistrées.</string>
+    <string name="theme_color">Couleur du thème</string>
+    <string name="custom_color">Couleur personnalisée</string>
+    <string name="notifications_denied">Veuillez autoriser les notifications pour les rappels</string>
+    <string name="remove_receipt">Supprimer le reçu</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">Bon retour</string>
+    <string name="unlock_subtitle">Saisissez votre PIN pour ouvrir FINANCIIEA</string>
+    <string name="pin_set_done">PIN défini. Le verrouillage est activé.</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">Technologie • Médias • Créativité</string>
+    <string name="about_intro">AVIOIVA est une marque numérique indépendante dédiée à la création de produits et d\'expériences numériques réfléchis, fiables et conviviaux, dans les domaines de la technologie, des médias, du divertissement et des plateformes créatives.</string>
+    <string name="about_app_info">Informations sur l\'application</string>
+    <string name="app_label">Appli</string>
+    <string name="version_label">Version</string>
+    <string name="developed_by">Développé par</string>
+    <string name="about_copyright_title">Droits d\'auteur</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">Contact</string>
+    <string name="about_contact_msg">Pour vos retours, questions de copyright ou demandes commerciales :</string>
+    <string name="email_label">E-mail</string>
+    <string name="website_label">Site web</string>
+    <string name="about_made">Conçu avec intention par AVIOIVA.</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Rappels quotidiens</string>
+    <string name="notif_title">Rappel du journal financier</string>
+    <string name="notif_text">C\'est le moment de noter les revenus et dépenses du jour.</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">Ваш финансовый дневник без лишних хлопот</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">Добавить операцию</string>
+    <string name="menu_history_reports">История операций и отчёты</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_header_slogan">Деньги • проще простого</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">Добавить операцию</string>
+    <string name="title_edit_transaction">Изменить операцию</string>
+    <string name="title_history">История операций</string>
+    <string name="title_reports">Отчёты</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_about">О приложении</string>
+
+    <!-- Common -->
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="apply">Применить</string>
+    <string name="back">Назад</string>
+    <string name="open_menu">Открыть меню</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">Текущий баланс</string>
+    <string name="cash">Наличные</string>
+    <string name="bank">Банк</string>
+    <string name="todays_income">Доходы за сегодня</string>
+    <string name="todays_expenses">Расходы за сегодня</string>
+    <string name="recent_transactions">Последние операции</string>
+    <string name="empty_transactions">Операций пока нет.\nНажмите +, чтобы добавить первую запись.</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">Расход</string>
+    <string name="type_payment">Поступление</string>
+    <string name="type_credit">Долг</string>
+    <string name="credit_from">От кого</string>
+    <string name="credit_from_hint">Кто дал вам эти деньги?</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">Сумма</string>
+    <string name="currency">Валюта</string>
+    <string name="account">Счёт</string>
+    <string name="category">Категория</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="notes">Заметки</string>
+    <string name="notes_hint">Напишите заметку об этой операции…</string>
+    <string name="receipt">Чек</string>
+    <string name="camera">Камера</string>
+    <string name="gallery">Галерея</string>
+    <string name="error_amount">Введите корректную сумму</string>
+    <string name="saved">Операция сохранена</string>
+    <string name="updated">Операция обновлена</string>
+    <string name="confirm_delete_title">Удалить эту операцию?</string>
+    <string name="confirm_delete_msg">Эта запись будет удалена безвозвратно.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Еда и рестораны</string>
+    <string name="cat_transport">Транспорт</string>
+    <string name="cat_shopping">Покупки</string>
+    <string name="cat_bills">Счета и коммунальные услуги</string>
+    <string name="cat_health">Здоровье</string>
+    <string name="cat_education">Образование</string>
+    <string name="cat_entertainment">Развлечения</string>
+    <string name="cat_other">Другое</string>
+
+    <!-- History -->
+    <string name="filter_day">День</string>
+    <string name="filter_week">Неделя</string>
+    <string name="filter_month">Месяц</string>
+    <string name="filter_custom">Свой период</string>
+    <string name="in_total">Приход</string>
+    <string name="out_total">Расход</string>
+    <string name="edit_or_delete">Изменить или удалить эту операцию?</string>
+    <string name="empty_range">Нет операций за этот период.</string>
+    <string name="custom_from">С</string>
+    <string name="custom_to">По</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">Расходы по категориям</string>
+    <string name="monthly_overview">Обзор по месяцам (последние 6 месяцев)</string>
+    <string name="income">Доходы</string>
+    <string name="expense">Расходы</string>
+    <string name="export_pdf">Экспорт в PDF</string>
+    <string name="export_csv">Экспорт в CSV / Excel</string>
+    <string name="report_empty">Нет данных о расходах за этот период.</string>
+    <string name="exported">Экспорт готов — выберите, куда отправить или сохранить его</string>
+    <string name="this_week">Эта неделя</string>
+    <string name="this_month">Этот месяц</string>
+    <string name="this_year">Этот год</string>
+    <string name="all_time">Всё время</string>
+
+    <!-- Settings -->
+    <string name="language">Язык</string>
+    <string name="app_lock">Блокировка приложения (PIN)</string>
+    <string name="app_lock_desc">Запрашивать PIN при каждом открытии приложения</string>
+    <string name="set_pin">Установить PIN</string>
+    <string name="change_pin">Изменить PIN</string>
+    <string name="enter_pin">Введите PIN (4–6 цифр)</string>
+    <string name="confirm_pin">Подтвердите PIN</string>
+    <string name="pin_mismatch">PIN-коды не совпадают. Попробуйте снова.</string>
+    <string name="pin_wrong">Неверный PIN. Попробуйте снова.</string>
+    <string name="pin_min">PIN должен содержать не менее 4 цифр</string>
+    <string name="daily_reminder">Ежедневное напоминание</string>
+    <string name="reminder_time">Время напоминания</string>
+    <string name="backup_restore">Резервное копирование и восстановление</string>
+    <string name="connect_drive">Подключить Google Drive</string>
+    <string name="drive_connected">Папка Google Drive подключена ✓</string>
+    <string name="drive_not_connected">Не подключено</string>
+    <string name="backup_now">Создать резервную копию</string>
+    <string name="restore_backup">Восстановить из копии</string>
+    <string name="save_backup_phone">Сохранить файл копии на телефон</string>
+    <string name="backup_done">Резервная копия успешно сохранена</string>
+    <string name="restore_done">Резервная копия успешно восстановлена</string>
+    <string name="restore_failed">Не удалось выполнить восстановление — это не допустимый файл резервной копии FINANCIIEA</string>
+    <string name="backup_pick_folder">В файловом менеджере выберите (или создайте) папку на вашем Google Drive — резервные копии будут сохраняться туда.</string>
+    <string name="theme_color">Цвет темы</string>
+    <string name="custom_color">Свой цвет</string>
+    <string name="notifications_denied">Разрешите уведомления, чтобы получать напоминания</string>
+    <string name="remove_receipt">Убрать чек</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">С возвращением</string>
+    <string name="unlock_subtitle">Введите PIN, чтобы открыть FINANCIIEA</string>
+    <string name="pin_set_done">PIN установлен. Блокировка приложения включена.</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">Технологии • Медиа • Творчество</string>
+    <string name="about_intro">AVIOIVA — независимый цифровой бренд, который занимается созданием продуманных, надёжных и удобных цифровых продуктов и впечатлений в сферах технологий, медиа, развлечений и творческих платформ.</string>
+    <string name="about_app_info">Информация о приложении</string>
+    <string name="app_label">Приложение</string>
+    <string name="version_label">Версия</string>
+    <string name="developed_by">Разработчик</string>
+    <string name="about_copyright_title">Авторские права</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">Контакты</string>
+    <string name="about_contact_msg">По вопросам обратной связи, авторских прав или сотрудничества:</string>
+    <string name="email_label">Эл. почта</string>
+    <string name="website_label">Сайт</string>
+    <string name="about_made">Создано компанией AVIOIVA с ясной целью.</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Ежедневные напоминания</string>
+    <string name="notif_title">Напоминание о дневнике финансов</string>
+    <string name="notif_text">Пора записать сегодняшние доходы и расходы.</string>
+</resources>

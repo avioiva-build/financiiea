@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">您的省心记账日记</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">添加交易</string>
+    <string name="menu_history_reports">交易历史与报表</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_header_slogan">记账 • 如此简单</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">添加交易</string>
+    <string name="title_edit_transaction">编辑交易</string>
+    <string name="title_history">交易历史</string>
+    <string name="title_reports">报表</string>
+    <string name="title_settings">设置</string>
+    <string name="title_about">关于</string>
+
+    <!-- Common -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="apply">应用</string>
+    <string name="back">返回</string>
+    <string name="open_menu">打开菜单</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">当前余额</string>
+    <string name="cash">现金</string>
+    <string name="bank">银行</string>
+    <string name="todays_income">今日收入</string>
+    <string name="todays_expenses">今日支出</string>
+    <string name="recent_transactions">最近交易</string>
+    <string name="empty_transactions">还没有交易。\n点按 + 添加第一笔记录。</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">支出</string>
+    <string name="type_payment">收款</string>
+    <string name="type_credit">借款</string>
+    <string name="credit_from">借自谁</string>
+    <string name="credit_from_hint">这笔钱是谁给你的？</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">金额</string>
+    <string name="currency">币种</string>
+    <string name="account">账户</string>
+    <string name="category">类别</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="notes">备注</string>
+    <string name="notes_hint">写一条关于这笔交易的备注…</string>
+    <string name="receipt">收据</string>
+    <string name="camera">相机</string>
+    <string name="gallery">相册</string>
+    <string name="error_amount">请输入有效金额</string>
+    <string name="saved">交易已保存</string>
+    <string name="updated">交易已更新</string>
+    <string name="confirm_delete_title">删除这笔交易？</string>
+    <string name="confirm_delete_msg">该记录将被永久删除。</string>
+
+    <!-- Categories -->
+    <string name="cat_food">餐饮</string>
+    <string name="cat_transport">交通</string>
+    <string name="cat_shopping">购物</string>
+    <string name="cat_bills">账单与水电</string>
+    <string name="cat_health">健康</string>
+    <string name="cat_education">教育</string>
+    <string name="cat_entertainment">娱乐</string>
+    <string name="cat_other">其他</string>
+
+    <!-- History -->
+    <string name="filter_day">日</string>
+    <string name="filter_week">周</string>
+    <string name="filter_month">月</string>
+    <string name="filter_custom">自定义</string>
+    <string name="in_total">收入</string>
+    <string name="out_total">支出</string>
+    <string name="edit_or_delete">要编辑还是删除这笔交易？</string>
+    <string name="empty_range">该时间段内没有交易。</string>
+    <string name="custom_from">从</string>
+    <string name="custom_to">到</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">按类别统计支出</string>
+    <string name="monthly_overview">月度概览（最近 6 个月）</string>
+    <string name="income">收入</string>
+    <string name="expense">支出</string>
+    <string name="export_pdf">导出 PDF</string>
+    <string name="export_csv">导出 CSV / Excel</string>
+    <string name="report_empty">该时间段内没有支出数据。</string>
+    <string name="exported">导出完成 — 选择分享或保存的位置</string>
+    <string name="this_week">本周</string>
+    <string name="this_month">本月</string>
+    <string name="this_year">今年</string>
+    <string name="all_time">全部</string>
+
+    <!-- Settings -->
+    <string name="language">语言</string>
+    <string name="app_lock">应用锁 (PIN)</string>
+    <string name="app_lock_desc">每次打开应用时要求输入 PIN</string>
+    <string name="set_pin">设置 PIN</string>
+    <string name="change_pin">更改 PIN</string>
+    <string name="enter_pin">输入 PIN（4–6 位数字）</string>
+    <string name="confirm_pin">确认 PIN</string>
+    <string name="pin_mismatch">两次输入的 PIN 不一致，请重试。</string>
+    <string name="pin_wrong">PIN 错误，请重试。</string>
+    <string name="pin_min">PIN 至少需要 4 位数字</string>
+    <string name="daily_reminder">每日提醒</string>
+    <string name="reminder_time">提醒时间</string>
+    <string name="backup_restore">备份与恢复</string>
+    <string name="connect_drive">连接 Google Drive</string>
+    <string name="drive_connected">Google Drive 文件夹已连接 ✓</string>
+    <string name="drive_not_connected">未连接</string>
+    <string name="backup_now">立即备份</string>
+    <string name="restore_backup">从备份恢复</string>
+    <string name="save_backup_phone">将备份文件保存到手机</string>
+    <string name="backup_done">备份已成功保存</string>
+    <string name="restore_done">备份已成功恢复</string>
+    <string name="restore_failed">恢复失败 — 不是有效的 FINANCIIEA 备份文件</string>
+    <string name="backup_pick_folder">在文件选择器中，选择（或新建）Google Drive 中的文件夹 — 备份将保存到该文件夹。</string>
+    <string name="theme_color">主题颜色</string>
+    <string name="custom_color">自定义颜色</string>
+    <string name="notifications_denied">请允许通知权限以使用提醒功能</string>
+    <string name="remove_receipt">移除收据</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">欢迎回来</string>
+    <string name="unlock_subtitle">输入 PIN 以打开 FINANCIIEA</string>
+    <string name="pin_set_done">PIN 已设置。应用锁已开启。</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">科技 • 传媒 • 创意</string>
+    <string name="about_intro">AVIOIVA 是一个独立的数字品牌，专注于在科技、传媒、娱乐和创意平台领域打造用心、可靠且易于使用的数字产品与体验。</string>
+    <string name="about_app_info">应用信息</string>
+    <string name="app_label">应用</string>
+    <string name="version_label">版本</string>
+    <string name="developed_by">开发者</string>
+    <string name="about_copyright_title">版权</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">联系</string>
+    <string name="about_contact_msg">如需反馈、版权事宜或商务合作：</string>
+    <string name="email_label">邮箱</string>
+    <string name="website_label">网站</string>
+    <string name="about_made">由 AVIOIVA 用心打造。</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">每日提醒</string>
+    <string name="notif_title">记账日记提醒</string>
+    <string name="notif_text">该记录今天的收支了。</string>
+</resources>

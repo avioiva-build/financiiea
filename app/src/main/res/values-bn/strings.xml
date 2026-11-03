@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">আপনার ঝামেলাহীন টাকার হিসাবের ডায়েরি</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">লেনদেন যোগ করুন</string>
+    <string name="menu_history_reports">লেনদেনের ইতিহাস ও রিপোর্ট</string>
+    <string name="menu_settings">সেটিংস</string>
+    <string name="menu_about">সম্পর্কে</string>
+    <string name="menu_header_slogan">টাকা • একদম সহজ</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">লেনদেন যোগ করুন</string>
+    <string name="title_edit_transaction">লেনদেন সম্পাদনা করুন</string>
+    <string name="title_history">লেনদেনের ইতিহাস</string>
+    <string name="title_reports">রিপোর্ট</string>
+    <string name="title_settings">সেটিংস</string>
+    <string name="title_about">সম্পর্কে</string>
+
+    <!-- Common -->
+    <string name="ok">ঠিক আছে</string>
+    <string name="cancel">বাতিল</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="edit">সম্পাদনা</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="apply">প্রয়োগ করুন</string>
+    <string name="back">ফিরে যান</string>
+    <string name="open_menu">মেনু খুলুন</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">বর্তমান ব্যালেন্স</string>
+    <string name="cash">নগদ</string>
+    <string name="bank">ব্যাংক</string>
+    <string name="todays_income">আজকের আয়</string>
+    <string name="todays_expenses">আজকের খরচ</string>
+    <string name="recent_transactions">সাম্প্রতিক লেনদেন</string>
+    <string name="empty_transactions">এখনও কোনো লেনদেন নেই।\nপ্রথম এন্ট্রি যোগ করতে + ট্যাপ করুন।</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">খরচ</string>
+    <string name="type_payment">পেমেন্ট</string>
+    <string name="type_credit">ধার</string>
+    <string name="credit_from">কার কাছ থেকে</string>
+    <string name="credit_from_hint">এই টাকা কে দিয়েছে?</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">পরিমাণ</string>
+    <string name="currency">মুদ্রা</string>
+    <string name="account">অ্যাকাউন্ট</string>
+    <string name="category">ক্যাটাগরি</string>
+    <string name="date">তারিখ</string>
+    <string name="time">সময়</string>
+    <string name="notes">নোট</string>
+    <string name="notes_hint">এই লেনদেন সম্পর্কে একটি নোট লিখুন…</string>
+    <string name="receipt">রসিদ</string>
+    <string name="camera">ক্যামেরা</string>
+    <string name="gallery">গ্যালারি</string>
+    <string name="error_amount">অনুগ্রহ করে সঠিক পরিমাণ লিখুন</string>
+    <string name="saved">লেনদেন সংরক্ষিত হয়েছে</string>
+    <string name="updated">লেনদেন হালনাগাদ হয়েছে</string>
+    <string name="confirm_delete_title">এই লেনদেন মুছে ফেলবেন?</string>
+    <string name="confirm_delete_msg">এই এন্ট্রি স্থায়ীভাবে মুছে যাবে।</string>
+
+    <!-- Categories -->
+    <string name="cat_food">খাবার ও ভোজন</string>
+    <string name="cat_transport">যাতায়াত</string>
+    <string name="cat_shopping">শপিং</string>
+    <string name="cat_bills">বিল ও ইউটিলিটি</string>
+    <string name="cat_health">স্বাস্থ্য</string>
+    <string name="cat_education">শিক্ষা</string>
+    <string name="cat_entertainment">বিনোদন</string>
+    <string name="cat_other">অন্যান্য</string>
+
+    <!-- History -->
+    <string name="filter_day">দিন</string>
+    <string name="filter_week">সপ্তাহ</string>
+    <string name="filter_month">মাস</string>
+    <string name="filter_custom">কাস্টম</string>
+    <string name="in_total">জমা</string>
+    <string name="out_total">খরচ</string>
+    <string name="edit_or_delete">এই লেনদেন সম্পাদনা নাকি মুছে ফেলবেন?</string>
+    <string name="empty_range">এই সময়ে কোনো লেনদেন নেই।</string>
+    <string name="custom_from">থেকে</string>
+    <string name="custom_to">পর্যন্ত</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">ক্যাটাগরি অনুযায়ী খরচ</string>
+    <string name="monthly_overview">মাসিক ওভারভিউ (গত ৬ মাস)</string>
+    <string name="income">আয়</string>
+    <string name="expense">খরচ</string>
+    <string name="export_pdf">PDF এক্সপোর্ট করুন</string>
+    <string name="export_csv">CSV / Excel এক্সপোর্ট করুন</string>
+    <string name="report_empty">এই সময়ের জন্য কোনো খরচের তথ্য নেই।</string>
+    <string name="exported">এক্সপোর্ট প্রস্তুত — শেয়ার বা সংরক্ষণের জায়গা বেছে নিন</string>
+    <string name="this_week">এই সপ্তাহ</string>
+    <string name="this_month">এই মাস</string>
+    <string name="this_year">এই বছর</string>
+    <string name="all_time">সব সময়</string>
+
+    <!-- Settings -->
+    <string name="language">ভাষা</string>
+    <string name="app_lock">অ্যাপ লক (পিন)</string>
+    <string name="app_lock_desc">অ্যাপ খোলার প্রতিবার পিন চাওয়া হবে</string>
+    <string name="set_pin">পিন সেট করুন</string>
+    <string name="change_pin">পিন পরিবর্তন করুন</string>
+    <string name="enter_pin">পিন লিখুন (৪–৬ অঙ্ক)</string>
+    <string name="confirm_pin">পিন নিশ্চিত করুন</string>
+    <string name="pin_mismatch">পিন দুটি মেলেনি। আবার চেষ্টা করুন।</string>
+    <string name="pin_wrong">ভুল পিন। আবার চেষ্টা করুন।</string>
+    <string name="pin_min">পিন কমপক্ষে ৪ অঙ্কের হতে হবে</string>
+    <string name="daily_reminder">দৈনিক রিমাইন্ডার</string>
+    <string name="reminder_time">রিমাইন্ডারের সময়</string>
+    <string name="backup_restore">ব্যাকআপ ও রিস্টোর</string>
+    <string name="connect_drive">Google Drive সংযোগ করুন</string>
+    <string name="drive_connected">Google Drive ফোল্ডার সংযুক্ত ✓</string>
+    <string name="drive_not_connected">সংযুক্ত নয়</string>
+    <string name="backup_now">এখনই ব্যাকআপ করুন</string>
+    <string name="restore_backup">ব্যাকআপ থেকে রিস্টোর করুন</string>
+    <string name="save_backup_phone">ব্যাকআপ ফাইল ফোনে সংরক্ষণ করুন</string>
+    <string name="backup_done">ব্যাকআপ সফলভাবে সংরক্ষিত হয়েছে</string>
+    <string name="restore_done">ব্যাকআপ সফলভাবে রিস্টোর হয়েছে</string>
+    <string name="restore_failed">রিস্টোর ব্যর্থ হয়েছে — এটি বৈধ FINANCIIEA ব্যাকআপ ফাইল নয়</string>
+    <string name="backup_pick_folder">পিকারে আপনার Google Drive-এ একটি ফোল্ডার বেছে নিন (বা তৈরি করুন) — ব্যাকআপগুলো সেখানে সংরক্ষিত হবে।</string>
+    <string name="theme_color">থিমের রঙ</string>
+    <string name="custom_color">কাস্টম রঙ</string>
+    <string name="notifications_denied">রিমাইন্ডারের জন্য অনুগ্রহ করে নোটিফিকেশনের অনুমতি দিন</string>
+    <string name="remove_receipt">রসিদ সরান</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">আবারও স্বাগতম</string>
+    <string name="unlock_subtitle">FINANCIIEA খুলতে আপনার পিন লিখুন</string>
+    <string name="pin_set_done">পিন সেট হয়েছে। অ্যাপ লক চালু আছে।</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">প্রযুক্তি • মিডিয়া • সৃজনশীলতা</string>
+    <string name="about_intro">AVIOIVA একটি স্বাধীন ডিজিটাল ব্র্যান্ড, যা প্রযুক্তি, মিডিয়া, বিনোদন ও সৃজনশীল প্ল্যাটফর্ম জুড়ে চিন্তাশীল, নির্ভরযোগ্য ও ব্যবহারবান্ধব ডিজিটাল পণ্য এবং অভিজ্ঞতা তৈরিতে মনোনিবেশ করে।</string>
+    <string name="about_app_info">অ্যাপের তথ্য</string>
+    <string name="app_label">অ্যাপ</string>
+    <string name="version_label">সংস্করণ</string>
+    <string name="developed_by">ডেভেলপ করেছেন</string>
+    <string name="about_copyright_title">কপিরাইট</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">যোগাযোগ</string>
+    <string name="about_contact_msg">মতামত, কপিরাইট সংক্রান্ত বিষয় বা ব্যবসায়িক জিজ্ঞাসার জন্য:</string>
+    <string name="email_label">ইমেইল</string>
+    <string name="website_label">ওয়েবসাইট</string>
+    <string name="about_made">AVIOIVA দ্বারা উদ্দেশ্য নিয়ে তৈরি।</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">দৈনিক রিমাইন্ডার</string>
+    <string name="notif_title">টাকার ডায়েরি রিমাইন্ডার</string>
+    <string name="notif_text">আজকের আয়-খরচ লেখার সময় হয়েছে।</string>
+</resources>

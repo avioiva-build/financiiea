@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">आपकी परेशानी-मुक्त पैसों की डायरी</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">लेन-देन जोड़ें</string>
+    <string name="menu_history_reports">लेन-देन का इतिहास और रिपोर्ट</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_about">ऐप के बारे में</string>
+    <string name="menu_header_slogan">पैसा • एकदम आसान</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">लेन-देन जोड़ें</string>
+    <string name="title_edit_transaction">लेन-देन संपादित करें</string>
+    <string name="title_history">लेन-देन का इतिहास</string>
+    <string name="title_reports">रिपोर्ट</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_about">ऐप के बारे में</string>
+
+    <!-- Common -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="edit">संपादित करें</string>
+    <string name="save">सहेजें</string>
+    <string name="apply">लागू करें</string>
+    <string name="back">वापस</string>
+    <string name="open_menu">मेन्यू खोलें</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">वर्तमान बैलेंस</string>
+    <string name="cash">नकद</string>
+    <string name="bank">बैंक</string>
+    <string name="todays_income">आज की आय</string>
+    <string name="todays_expenses">आज का खर्च</string>
+    <string name="recent_transactions">हाल के लेन-देन</string>
+    <string name="empty_transactions">अभी कोई लेन-देन नहीं है।\nपहली एंट्री जोड़ने के लिए + दबाएं।</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">खर्च</string>
+    <string name="type_payment">भुगतान</string>
+    <string name="type_credit">उधार</string>
+    <string name="credit_from">किससे</string>
+    <string name="credit_from_hint">यह पैसा किसने दिया?</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">रकम</string>
+    <string name="currency">मुद्रा</string>
+    <string name="account">खाता</string>
+    <string name="category">श्रेणी</string>
+    <string name="date">तारीख</string>
+    <string name="time">समय</string>
+    <string name="notes">नोट्स</string>
+    <string name="notes_hint">इस लेन-देन के बारे में नोट लिखें…</string>
+    <string name="receipt">रसीद</string>
+    <string name="camera">कैमरा</string>
+    <string name="gallery">गैलरी</string>
+    <string name="error_amount">कृपया मान्य रकम दर्ज करें</string>
+    <string name="saved">लेन-देन सहेजा गया</string>
+    <string name="updated">लेन-देन अपडेट किया गया</string>
+    <string name="confirm_delete_title">यह लेन-देन हटाएं?</string>
+    <string name="confirm_delete_msg">यह एंट्री स्थायी रूप से हट जाएगी।</string>
+
+    <!-- Categories -->
+    <string name="cat_food">खाना और डाइनिंग</string>
+    <string name="cat_transport">परिवहन</string>
+    <string name="cat_shopping">शॉपिंग</string>
+    <string name="cat_bills">बिल और यूटिलिटी</string>
+    <string name="cat_health">स्वास्थ्य</string>
+    <string name="cat_education">शिक्षा</string>
+    <string name="cat_entertainment">मनोरंजन</string>
+    <string name="cat_other">अन्य</string>
+
+    <!-- History -->
+    <string name="filter_day">दिन</string>
+    <string name="filter_week">सप्ताह</string>
+    <string name="filter_month">महीना</string>
+    <string name="filter_custom">कस्टम</string>
+    <string name="in_total">जमा</string>
+    <string name="out_total">खर्च</string>
+    <string name="edit_or_delete">इस लेन-देन को संपादित करें या हटाएं?</string>
+    <string name="empty_range">इस अवधि में कोई लेन-देन नहीं।</string>
+    <string name="custom_from">से</string>
+    <string name="custom_to">तक</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">श्रेणी के अनुसार खर्च</string>
+    <string name="monthly_overview">मासिक अवलोकन (पिछले 6 महीने)</string>
+    <string name="income">आय</string>
+    <string name="expense">व्यय</string>
+    <string name="export_pdf">PDF एक्सपोर्ट करें</string>
+    <string name="export_csv">CSV / Excel एक्सपोर्ट करें</string>
+    <string name="report_empty">इस अवधि के लिए कोई खर्च डेटा नहीं।</string>
+    <string name="exported">एक्सपोर्ट तैयार — शेयर या सहेजने के लिए जगह चुनें</string>
+    <string name="this_week">यह सप्ताह</string>
+    <string name="this_month">यह महीना</string>
+    <string name="this_year">यह साल</string>
+    <string name="all_time">सभी समय</string>
+
+    <!-- Settings -->
+    <string name="language">भाषा</string>
+    <string name="app_lock">ऐप लॉक (पिन)</string>
+    <string name="app_lock_desc">ऐप खुलने पर हर बार पिन मांगा जाएगा</string>
+    <string name="set_pin">पिन सेट करें</string>
+    <string name="change_pin">पिन बदलें</string>
+    <string name="enter_pin">पिन दर्ज करें (4–6 अंक)</string>
+    <string name="confirm_pin">पिन की पुष्टि करें</string>
+    <string name="pin_mismatch">पिन मेल नहीं खाते। फिर से कोशिश करें।</string>
+    <string name="pin_wrong">गलत पिन। फिर से कोशिश करें।</string>
+    <string name="pin_min">पिन कम से कम 4 अंक का होना चाहिए</string>
+    <string name="daily_reminder">दैनिक रिमाइंडर</string>
+    <string name="reminder_time">रिमाइंडर का समय</string>
+    <string name="backup_restore">बैकअप और रीस्टोर</string>
+    <string name="connect_drive">Google Drive कनेक्ट करें</string>
+    <string name="drive_connected">Google Drive फ़ोल्डर कनेक्ट है ✓</string>
+    <string name="drive_not_connected">कनेक्ट नहीं है</string>
+    <string name="backup_now">अभी बैकअप लें</string>
+    <string name="restore_backup">बैकअप से रीस्टोर करें</string>
+    <string name="save_backup_phone">बैकअप फ़ाइल फ़ोन में सहेजें</string>
+    <string name="backup_done">बैकअप सफलतापूर्वक सहेजा गया</string>
+    <string name="restore_done">बैकअप सफलतापूर्वक रीस्टोर हो गया</string>
+    <string name="restore_failed">रीस्टोर विफल — यह मान्य FINANCIIEA बैकअप फ़ाइल नहीं है</string>
+    <string name="backup_pick_folder">पिकर में अपने Google Drive का कोई फ़ोल्डर चुनें (या बनाएं) — बैकअप वहीं सहेजे जाएंगे।</string>
+    <string name="theme_color">थीम का रंग</string>
+    <string name="custom_color">कस्टम रंग</string>
+    <string name="notifications_denied">रिमाइंडर के लिए कृपया नोटिफिकेशन की अनुमति दें</string>
+    <string name="remove_receipt">रसीद हटाएं</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">फिर से स्वागत है</string>
+    <string name="unlock_subtitle">FINANCIIEA खोलने के लिए अपना पिन दर्ज करें</string>
+    <string name="pin_set_done">पिन सेट हो गया। ऐप लॉक चालू है।</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">प्रौद्योगिकी • मीडिया • रचनात्मकता</string>
+    <string name="about_intro">AVIOIVA एक स्वतंत्र डिजिटल ब्रांड है, जो प्रौद्योगिकी, मीडिया, मनोरंजन और रचनात्मक प्लेटफ़ॉर्म में विचारशील, भरोसेमंद और उपयोगकर्ता-अनुकूल डिजिटल उत्पाद व अनुभव बनाने पर केंद्रित है।</string>
+    <string name="about_app_info">ऐप जानकारी</string>
+    <string name="app_label">ऐप</string>
+    <string name="version_label">संस्करण</string>
+    <string name="developed_by">द्वारा विकसित</string>
+    <string name="about_copyright_title">कॉपीराइट</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">संपर्क</string>
+    <string name="about_contact_msg">प्रतिक्रिया, कॉपीराइट संबंधी चिंताओं या व्यावसायिक पूछताछ के लिए:</string>
+    <string name="email_label">ईमेल</string>
+    <string name="website_label">वेबसाइट</string>
+    <string name="about_made">AVIOIVA द्वारा प्रयोजन के साथ निर्मित।</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">दैनिक रिमाइंडर</string>
+    <string name="notif_title">पैसों की डायरी रिमाइंडर</string>
+    <string name="notif_text">आज की आय और खर्च दर्ज करने का समय हो गया।</string>
+</resources>

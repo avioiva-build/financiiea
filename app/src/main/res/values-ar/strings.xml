@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">يوميات أموالك بلا عناء</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">إضافة معاملة</string>
+    <string name="menu_history_reports">سجل المعاملات والتقارير</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_about">حول</string>
+    <string name="menu_header_slogan">المال • بكل بساطة</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">إضافة معاملة</string>
+    <string name="title_edit_transaction">تعديل المعاملة</string>
+    <string name="title_history">سجل المعاملات</string>
+    <string name="title_reports">التقارير</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="title_about">حول</string>
+
+    <!-- Common -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="save">حفظ</string>
+    <string name="apply">تطبيق</string>
+    <string name="back">رجوع</string>
+    <string name="open_menu">فتح القائمة</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">الرصيد الحالي</string>
+    <string name="cash">النقد</string>
+    <string name="bank">البنك</string>
+    <string name="todays_income">دخل اليوم</string>
+    <string name="todays_expenses">مصروفات اليوم</string>
+    <string name="recent_transactions">المعاملات الأخيرة</string>
+    <string name="empty_transactions">لا توجد معاملات بعد.\nاضغط + لإضافة أول قيد.</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">مصروف</string>
+    <string name="type_payment">دفعة</string>
+    <string name="type_credit">دين</string>
+    <string name="credit_from">مِمَّن</string>
+    <string name="credit_from_hint">من الذي أعطاك هذا المال؟</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">المبلغ</string>
+    <string name="currency">العملة</string>
+    <string name="account">الحساب</string>
+    <string name="category">الفئة</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="notes">ملاحظات</string>
+    <string name="notes_hint">اكتب ملاحظة عن هذه المعاملة…</string>
+    <string name="receipt">الإيصال</string>
+    <string name="camera">الكاميرا</string>
+    <string name="gallery">المعرض</string>
+    <string name="error_amount">يرجى إدخال مبلغ صحيح</string>
+    <string name="saved">تم حفظ المعاملة</string>
+    <string name="updated">تم تحديث المعاملة</string>
+    <string name="confirm_delete_title">حذف هذه المعاملة؟</string>
+    <string name="confirm_delete_msg">سيُحذف هذا القيد نهائيًا.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">طعام ومطاعم</string>
+    <string name="cat_transport">مواصلات</string>
+    <string name="cat_shopping">تسوق</string>
+    <string name="cat_bills">فواتير ومرافق</string>
+    <string name="cat_health">صحة</string>
+    <string name="cat_education">تعليم</string>
+    <string name="cat_entertainment">ترفيه</string>
+    <string name="cat_other">أخرى</string>
+
+    <!-- History -->
+    <string name="filter_day">يوم</string>
+    <string name="filter_week">أسبوع</string>
+    <string name="filter_month">شهر</string>
+    <string name="filter_custom">مخصص</string>
+    <string name="in_total">الوارد</string>
+    <string name="out_total">الصادر</string>
+    <string name="edit_or_delete">تعديل هذه المعاملة أو حذفها؟</string>
+    <string name="empty_range">لا توجد معاملات في هذه الفترة.</string>
+    <string name="custom_from">من</string>
+    <string name="custom_to">إلى</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">المصروفات حسب الفئة</string>
+    <string name="monthly_overview">نظرة شهرية (آخر 6 أشهر)</string>
+    <string name="income">الدخل</string>
+    <string name="expense">المصروف</string>
+    <string name="export_pdf">تصدير PDF</string>
+    <string name="export_csv">تصدير CSV / Excel</string>
+    <string name="report_empty">لا توجد بيانات مصروفات لهذه الفترة.</string>
+    <string name="exported">التصدير جاهز — اختر مكان المشاركة أو الحفظ</string>
+    <string name="this_week">هذا الأسبوع</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="this_year">هذا العام</string>
+    <string name="all_time">كل الوقت</string>
+
+    <!-- Settings -->
+    <string name="language">اللغة</string>
+    <string name="app_lock">قفل التطبيق (PIN)</string>
+    <string name="app_lock_desc">طلب رمز PIN في كل مرة يُفتح فيها التطبيق</string>
+    <string name="set_pin">تعيين PIN</string>
+    <string name="change_pin">تغيير PIN</string>
+    <string name="enter_pin">أدخل رمز PIN (4–6 أرقام)</string>
+    <string name="confirm_pin">تأكيد رمز PIN</string>
+    <string name="pin_mismatch">رمزا PIN غير متطابقين. حاول مجددًا.</string>
+    <string name="pin_wrong">رمز PIN خاطئ. حاول مجددًا.</string>
+    <string name="pin_min">يجب ألا يقل رمز PIN عن 4 أرقام</string>
+    <string name="daily_reminder">تذكير يومي</string>
+    <string name="reminder_time">وقت التذكير</string>
+    <string name="backup_restore">النسخ الاحتياطي والاستعادة</string>
+    <string name="connect_drive">ربط Google Drive</string>
+    <string name="drive_connected">تم ربط مجلد Google Drive ✓</string>
+    <string name="drive_not_connected">غير مرتبط</string>
+    <string name="backup_now">إنشاء نسخة احتياطية الآن</string>
+    <string name="restore_backup">استعادة من نسخة احتياطية</string>
+    <string name="save_backup_phone">حفظ ملف النسخة الاحتياطية في الهاتف</string>
+    <string name="backup_done">تم حفظ النسخة الاحتياطية بنجاح</string>
+    <string name="restore_done">تمت استعادة النسخة الاحتياطية بنجاح</string>
+    <string name="restore_failed">فشلت الاستعادة — الملف ليس نسخة احتياطية صالحة لـ FINANCIIEA</string>
+    <string name="backup_pick_folder">في منتقي الملفات، اختر (أو أنشئ) مجلدًا في Google Drive — ستُحفظ النسخ الاحتياطية هناك.</string>
+    <string name="theme_color">لون المظهر</string>
+    <string name="custom_color">لون مخصص</string>
+    <string name="notifications_denied">يرجى السماح بإذن الإشعارات لعرض التذكيرات</string>
+    <string name="remove_receipt">إزالة الإيصال</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">مرحبًا بعودتك</string>
+    <string name="unlock_subtitle">أدخل رمز PIN لفتح FINANCIIEA</string>
+    <string name="pin_set_done">تم تعيين الرمز. قفل التطبيق مفعّل.</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">تقنية • إعلام • إبداع</string>
+    <string name="about_intro">AVIOIVA علامة رقمية مستقلة تركز على ابتكار منتجات وتجارب رقمية مدروسة وموثوقة وسهلة الاستخدام في مجالات التقنية والإعلام والترفيه والمنصات الإبداعية.</string>
+    <string name="about_app_info">معلومات التطبيق</string>
+    <string name="app_label">التطبيق</string>
+    <string name="version_label">الإصدار</string>
+    <string name="developed_by">تطوير</string>
+    <string name="about_copyright_title">حقوق النشر</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">تواصل</string>
+    <string name="about_contact_msg">للملاحظات أو مخاوف حقوق النشر أو الاستفسارات التجارية:</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="website_label">الموقع الإلكتروني</string>
+    <string name="about_made">صُنع بهدف من AVIOIVA.</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">التذكيرات اليومية</string>
+    <string name="notif_title">تذكير يومية الأموال</string>
+    <string name="notif_text">حان وقت تسجيل دخل ومصروفات اليوم.</string>
+</resources>

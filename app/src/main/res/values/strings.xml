@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FINANCIIEA</string>
+    <string name="tagline">Your hassle-free money diary</string>
+
+    <!-- Sidebar menu -->
+    <string name="menu_add_transaction">Add Transaction</string>
+    <string name="menu_history_reports">Transaction History &amp; Reports</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_header_slogan">Money • Made Simple</string>
+
+    <!-- Screen titles -->
+    <string name="title_add_transaction">Add Transaction</string>
+    <string name="title_edit_transaction">Edit Transaction</string>
+    <string name="title_history">Transaction History</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_about">About</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+    <string name="back">Back</string>
+    <string name="open_menu">Open menu</string>
+
+    <!-- Home dashboard -->
+    <string name="current_balance">Current Balance</string>
+    <string name="cash">Cash</string>
+    <string name="bank">Bank</string>
+    <string name="todays_income">Today\'s Income</string>
+    <string name="todays_expenses">Today\'s Expenses</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="empty_transactions">No transactions yet.\nTap + to add your first entry.</string>
+
+    <!-- Transaction types -->
+    <string name="type_expense">Expense</string>
+    <string name="type_payment">Payment</string>
+    <string name="type_credit">Credit</string>
+    <string name="credit_from">From Whom</string>
+    <string name="credit_from_hint">Who gave you this money?</string>
+
+    <!-- Add / Edit transaction -->
+    <string name="amount">Amount</string>
+    <string name="currency">Currency</string>
+    <string name="account">Account</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="notes">Notes</string>
+    <string name="notes_hint">Write a note about this transaction…</string>
+    <string name="receipt">Receipt</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="error_amount">Please enter a valid amount</string>
+    <string name="saved">Transaction saved</string>
+    <string name="updated">Transaction updated</string>
+    <string name="confirm_delete_title">Delete this transaction?</string>
+    <string name="confirm_delete_msg">This entry will be removed permanently.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Food &amp; Dining</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_bills">Bills &amp; Utilities</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_other">Other</string>
+
+    <!-- History -->
+    <string name="filter_day">Day</string>
+    <string name="filter_week">Week</string>
+    <string name="filter_month">Month</string>
+    <string name="filter_custom">Custom</string>
+    <string name="in_total">In</string>
+    <string name="out_total">Out</string>
+    <string name="edit_or_delete">Edit or delete this transaction?</string>
+    <string name="empty_range">No transactions in this period.</string>
+    <string name="custom_from">From</string>
+    <string name="custom_to">To</string>
+
+    <!-- Reports -->
+    <string name="spending_by_category">Spending by Category</string>
+    <string name="monthly_overview">Monthly Overview (Last 6 Months)</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_csv">Export CSV / Excel</string>
+    <string name="report_empty">No expense data for this period.</string>
+    <string name="exported">Export ready — choose where to share or save it</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="this_year">This Year</string>
+    <string name="all_time">All Time</string>
+
+    <!-- Settings -->
+    <string name="language">Language</string>
+    <string name="app_lock">App Lock (PIN)</string>
+    <string name="app_lock_desc">Ask for the PIN every time the app opens</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="enter_pin">Enter PIN (4–6 digits)</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_mismatch">PINs do not match. Try again.</string>
+    <string name="pin_wrong">Wrong PIN. Try again.</string>
+    <string name="pin_min">PIN must be at least 4 digits</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="connect_drive">Connect Google Drive</string>
+    <string name="drive_connected">Google Drive folder connected ✓</string>
+    <string name="drive_not_connected">Not connected</string>
+    <string name="backup_now">Backup Now</string>
+    <string name="restore_backup">Restore from Backup</string>
+    <string name="save_backup_phone">Save Backup File to Phone</string>
+    <string name="backup_done">Backup saved successfully</string>
+    <string name="restore_done">Backup restored successfully</string>
+    <string name="restore_failed">Restore failed — not a valid FINANCIIEA backup file</string>
+    <string name="backup_pick_folder">In the picker, choose (or create) a folder in your Google Drive — backups will be saved there.</string>
+    <string name="theme_color">Theme Colour</string>
+    <string name="custom_color">Custom Colour</string>
+    <string name="notifications_denied">Please allow notification permission for reminders</string>
+    <string name="remove_receipt">Remove receipt</string>
+
+    <!-- PIN / lock -->
+    <string name="unlock_title">Welcome back</string>
+    <string name="unlock_subtitle">Enter your PIN to open FINANCIIEA</string>
+    <string name="pin_set_done">PIN is set. App Lock is on.</string>
+
+    <!-- About -->
+    <string name="about_brand_sub">Technology • Media • Creativity</string>
+    <string name="about_intro">AVIOIVA is an independent digital brand focused on creating thoughtful, reliable, and user-friendly digital products and experiences across technology, media, entertainment, and creative platforms.</string>
+    <string name="about_app_info">App Information</string>
+    <string name="app_label">App</string>
+    <string name="version_label">Version</string>
+    <string name="developed_by">Developed by</string>
+    <string name="about_copyright_title">Copyright</string>
+    <string name="about_copyright">© 2026 AVIOIVA. All rights reserved.\n\nThe software, design, branding, logo, and original materials of this application are the property of AVIOIVA unless otherwise stated. Third-party content remains the property of its respective copyright holders.</string>
+    <string name="about_contact">Contact</string>
+    <string name="about_contact_msg">For feedback, copyright concerns, or business inquiries:</string>
+    <string name="email_label">Email</string>
+    <string name="website_label">Website</string>
+    <string name="about_made">Made with purpose by AVIOIVA.</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Daily reminders</string>
+    <string name="notif_title">Money diary reminder</string>
+    <string name="notif_text">Time to record today\'s income and expenses.</string>
+</resources>
